@@ -1,4 +1,4 @@
-variable "network_name" {
+variable "vpc_name" {
   type = string
   description = "Nombre de la red"
   sensitive = true
@@ -8,7 +8,6 @@ variable "instance_name" {
   type        = string
   description = "Nombre de la instancia"
 }
-
 
 variable "instance_type" {
   type = string
